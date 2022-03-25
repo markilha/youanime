@@ -12,7 +12,6 @@ import {
   ListItem,
   ListItemIcon,
   ListItemText,
-  Input,
   Box,
   Grid,
   Hidden,
@@ -20,11 +19,7 @@ import {
 } from "@material-ui/core";
 import { useTheme,alpha } from "@material-ui/core/styles";
 import MenuIcon from "@material-ui/icons/Menu";
-import AccountCircle from "@material-ui/icons/AccountCircle";
-import Apps from "@material-ui/icons/Apps";
-import MoreVert from "@material-ui/icons/MoreVert";
-import VideoCall from "@material-ui/icons/VideoCall";
-import SearchIcon from '@material-ui/icons/Search';
+import AccountCircle from "@material-ui/icons/AccountCircle";     
 import HomeIcon from "@material-ui/icons/Home";
 
 
@@ -157,7 +152,7 @@ function Home({ darkMode, setDarkMode }) {
             <MenuIcon />
           </IconButton>
           <img
-            src={
+            src={ 
               theme.palette.type === "dark"
                 ? "/images/branco.png"
                 : "/images/preto.png"
