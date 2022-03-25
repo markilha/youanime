@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {ThemeProvider,createTheme,makeStyles } from '@material-ui/core';
 import './App.css';
-import Home from './components/Home'
+import Home from './pages/Home'
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
